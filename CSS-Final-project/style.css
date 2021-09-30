@@ -4,42 +4,47 @@ body{
 
 }
 nav{
-    color: white;
-    font-weight: bold;
+   
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 30px;
-    padding-right: 30px ;
+    font-size: 20px;
+    padding: 20px 0px 20px 100px;
 }
-ul{
-    list-style-type: none;
-    display: flex;
-    gap:16px;
-    padding: 0;
-    margin: 0;
+.ul a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Roboto', arial;
+    
+}
+.ul{
+    padding: 40px;
+}
+.logo{
+    border:none;
+    width: 8%;
+    height:8%;
 }
 .head{
     background-color: #1F2937;
     color: white;
-    height: 400px;
-    padding: 40px;
+    height: 500px;
+    
 }
 .top{
     display: flex;
     padding: 40px;
+    justify-content: space-around;
+    
 }
 .image{
     height:200px;
     width:500px;
+    border: none;
 }
-button{
-    background-color:#3882F6;
-    border-radius: 5px;
-    padding: 8px 16px;
-    color: white;
-    border-color: white;
-}
+
 .text{
     padding:  5px;
 }
@@ -51,7 +56,7 @@ button{
     padding: 20px;
 }
 
-    img{
+.card img{
         width:150px;
         height:150px;
         border-radius: 2rem;
@@ -89,10 +94,28 @@ button{
 }
 .bottom{
     background-color: #3882F6;
-    padding:  40px;
+    padding:  30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     color:white;
-    
+    border-radius: 5px;
+}
+.bottom button{
+    background-color:#3882F6;
+    border-color: #fff;
+    border-radius: 8px;
+    padding: 5px 25px;
+    color: white;
+    font-family: 'Roboto', arial;
+}
+.text button{
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    font-weight: bold;
 }
