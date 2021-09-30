@@ -1,0 +1,98 @@
+body{
+    margin : 0;
+    padding: 0;
+
+}
+nav{
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px ;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap:16px;
+    padding: 0;
+    margin: 0;
+}
+.head{
+    background-color: #1F2937;
+    color: white;
+    height: 400px;
+    padding: 40px;
+}
+.top{
+    display: flex;
+    padding: 40px;
+}
+.image{
+    height:200px;
+    width:500px;
+}
+button{
+    background-color:#3882F6;
+    border-radius: 5px;
+    padding: 8px 16px;
+    color: white;
+    border-color: white;
+}
+.text{
+    padding:  5px;
+}
+.cardpart{
+    display: flex;
+    padding: 20px 140px;
+}
+.card{
+    padding: 20px;
+}
+
+    img{
+        width:150px;
+        height:150px;
+        border-radius: 2rem;
+        border-color: cornflowerblue;
+        border-width: 5px;
+        border-style: solid;
+     }
+
+.footer{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quote{
+    display: flex;
+    justify-content: right;
+    color: black;
+    font-weight: bold;
+}
+.down{
+    background-color: #E5E7EB;
+    color:  #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 150px;
+}
+.btn{
+    padding: 150px;
+}
+.bottom{
+    background-color: #3882F6;
+    padding:  40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    
+}
