@@ -7,9 +7,9 @@ nav{
    
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 20px;
-    padding: 20px 0px 20px 100px;
+    
 }
 .ul a{
     text-decoration: none;
@@ -24,8 +24,8 @@ nav{
 }
 .logo{
     border:none;
-    width: 8%;
-    height:8%;
+    width: 4%;
+    height:4%;
 }
 .head{
     background-color: #1F2937;
@@ -35,7 +35,6 @@ nav{
 }
 .top{
     display: flex;
-    padding: 40px;
     justify-content: space-around;
     
 }
@@ -50,15 +49,29 @@ nav{
 }
 .cardpart{
     display: flex;
-    padding: 20px 140px;
+    justify-content: center;
+    display: flex;
+    gap: 8px;
+    padding-bottom: 150px; 
+}
+.card p{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-items: center;
+    text-align: center;
 }
 .card{
-    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
 }
-
 .card img{
         width:150px;
         height:150px;
+        object-fit: cover;
         border-radius: 2rem;
         border-color: cornflowerblue;
         border-width: 5px;
